@@ -18,7 +18,7 @@ public class classTest {
 	}
 	
 	
-	@Test(enabled=false)
+	@Test
 	public void testDataTest(){
 		testData.getTestData("test");
 		System.out.println(testData.projId);
@@ -27,7 +27,7 @@ public class classTest {
 	}
 	
 	
-	@Test(enabled=true)
+	@Test
 	public void testGit(){
 		System.out.println("Upload to Git");
 	}
