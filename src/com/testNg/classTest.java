@@ -18,7 +18,7 @@ public class classTest {
 	}
 	
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void testDataTest(){
 		testData.getTestData("test");
 		System.out.println(testData.projId);
