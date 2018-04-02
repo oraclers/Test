@@ -27,7 +27,7 @@ public class classTest {
 	}
 	
 	
-	@Test
+	@Test(enabled=true)
 	public void testGit(){
 		System.out.println("Upload to Git");
 	}
