@@ -28,6 +28,11 @@ public class classTest {
 	
 	
 	@Test
+	public void testGit(){
+		System.out.println("Upload to Git");
+	}
+	
+	@Test
 	public void classTest(){
 		for(int i=0;i<1;i++){
 			
